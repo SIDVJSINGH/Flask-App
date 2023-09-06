@@ -35,7 +35,7 @@ Root
 
 
 # This application has a Docker Image on Docker Hub
-Try following command to run this on your local:
+Try following command to run this on your local after installing Docker Daemon:
 
 ``` 
 docker run sidvjsingh/flask_app:1.1 
