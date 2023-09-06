@@ -2,6 +2,7 @@
 This project is a simple Flask Application project
 
 # File Structure:
+``` bash
 Root
 ├───application
 │    ├───templates
@@ -18,6 +19,7 @@ Root
 ├───requirement.txt
 ├───readme.md
 └───run.py
+```
 
 # Each file contains
 - ```application/templates/index.html```   : contains the basic HTML form for QUIZ questions without JINJA Templating
