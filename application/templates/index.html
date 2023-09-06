@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Quiz App</title>
+</head>
+<body>
+<div style="align-content: center; padding: 15px 23px 14px; margin: auto; width: 40%">
+<h1 style="color: darkred">Quiz Form</h1>
+<form action="/answers", method="post">
+    {% for question in questions_list %}
+        <h4>
+        {{question.ques}}
+        <br>
+    <input type="radio" name="{{question.qestion_no}}" value="{{question.option_a}}" required style="padding: 20px 10px"> {{question.option_a}}
+    <input type="radio" name="{{question.qestion_no}}" value="{{question.option_b}}" required style="padding: 20px 10px"> {{question.option_b}}
+            <br>
+    <input type="radio" name="{{question.qestion_no}}" value="{{question.option_c}}" required style="padding: 20px 10px"> {{question.option_c}}
+    <input type="radio" name="{{question.qestion_no}}" value="{{question.option_d}}" required style="padding: 20px 10px"> {{question.option_d}}
+        </h4>
+    {% endfor %}
+    <br><br>
+    <input type="submit" name="submitform" value="Submit" style="padding: 20px; border: black; text-size-adjust: auto">
+</form>
+</div>
+</body>
+</html>
