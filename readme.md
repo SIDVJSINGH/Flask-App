@@ -40,7 +40,7 @@ Root
 Try following command to run this on your local after installing Docker Daemon:
 
 ``` 
-docker run sidvjsingh/flask_app:1.1 
+docker run -p 5000:5000 sidvjsingh/flask_app:1.1
 ```
 This single command will pull the image from the Docker Hub and ran it in your local.
 
@@ -49,5 +49,5 @@ Alternatively you can also do:
 docker pull sidvjsingh/flask_app:1.1
 ```
 ```
-docker run sidvjsingh/flask_app:1.1
+docker run -p 5000:5000 sidvjsingh/flask_app:1.1
 ```
