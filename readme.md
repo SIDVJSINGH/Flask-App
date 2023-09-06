@@ -2,7 +2,7 @@
 This project is a simple Flask Application project
 
 # File Structure:
-``` bash
+```
 Root
 ├───application
 │    ├───templates
