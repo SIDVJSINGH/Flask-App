@@ -39,6 +39,8 @@ This single command will pull the image from the Docker Hub and ran it in your l
 alternatively you can also do
 
 ```
-docker pull sidvjsingh/flask_app:1.1 \
+docker pull sidvjsingh/flask_app:1.1
+```
+```
 docker run sidvjsingh/flask_app:1.1
 ```
