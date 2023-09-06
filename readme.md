@@ -30,15 +30,15 @@ Root
 - ```run.py``` : the main file that runs the application from outside.
 
 
-# this application has a Docker Image on Docker Hub
+# This application has a Docker Image on Docker Hub
 Try following command to run this on your local:
 
- ``` docker run sidvjsingh/flask_app:latest ```
+- ``` docker run sidvjsingh/flask_app:1.1 ```
 This single command will pull the image from the Docker Hub and ran it in your local
 
 alternatively you can also do
 
 ```
-docker pull sidvjsingh/flask_app:latest
-docker run sidvjsingh/flask_app:latest
+docker pull sidvjsingh/flask_app:1.1 \
+docker run sidvjsingh/flask_app:1.1
 ```
