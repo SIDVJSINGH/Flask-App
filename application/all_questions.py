@@ -1,5 +1,6 @@
 from application.question_class import Questions
 
+# Questions declaration
 ques1 = Questions(1, "What is the capital of India?", "Delhi", "Chennai", "Mumbai", "Bangalore", 1)
 ques2 = Questions(2, "Who is the prime minister of India?", "Mr.Modi", "Mr.Gandhi", "Mr.Singh", "Mr.Shah", 1)
 ques3 = Questions(3, "How many colors are there in Rainbow?", "6", "7", "5", "10", 2)

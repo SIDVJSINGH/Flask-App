@@ -1,5 +1,7 @@
 # Flask APP
 This project is a simple Flask Application project
+I'm not so good with HTML and CSS, therefore used a simple HTML document
+This can be improved with the help of Bootstrap templates and Jinja Templating
 
 # File Structure:
 ```

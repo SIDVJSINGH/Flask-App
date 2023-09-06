@@ -3,11 +3,14 @@ from application.all_questions import questions_list
 from application import app
 
 
+# Home page
 @app.route("/", methods = ['GET'])
 def home():
     return render_template("index.html", questions_list=questions_list)
 
 
+# Results page
+# Returning score in list data structure
 @app.route("/answers", methods=['GET', 'POST'])
 def answer():
     results: int = 0
